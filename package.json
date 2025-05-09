@@ -1,6 +1,6 @@
 {
   "name": "@hacerx/postcss-watcher-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A PostCSS plugin that monitors source file changes and triggers custom actions.",
   "main": "dist/index.js",
   "scripts": {

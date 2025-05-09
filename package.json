@@ -1,0 +1,46 @@
+{
+  "name": "@hacerx/postcss-watcher-plugin",
+  "version": "1.0.0",
+  "description": "A PostCSS plugin that monitors source file changes and triggers custom actions.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build:watch": "tsc --watch",
+    "build": "tsc"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "watch",
+    "watcher",
+    "file-watcher",
+    "file-change",
+    "hot-reload",
+    "live-reload",
+    "css",
+    "build-tool",
+    "automation",
+    "dev-tool",
+    "rebuild",
+    "file-system",
+    "plugin"
+  ],
+  "author": "hacerx",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "postcss": "^8.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hacerx/postcss-watcher-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hacerx/postcss-watcher-plugin/issues"
+  },
+  "homepage": "https://github.com/Hacerx/postcss-watcher-plugin#readme"
+}

@@ -20,7 +20,7 @@ This plugin detects modifications to CSS file and can integrate with your develo
 ## 🔧 Installation
 
 ```bash
-npm i @hacerx/postcss-check-changes
+npm i @hacerx/postcss-watcher-plugin
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npm i @hacerx/postcss-check-changes
 ### Basic
 ```js
 /* postcss.config.mjs */
-import { checkChangesPlugin } from '@hacerx/postcss-check-changes';
+import { checkChangesPlugin } from '@hacerx/postcss-watcher-plugin';
 
 /** @type {import('postcss-load-config').Config} */
 export default {
@@ -39,7 +39,7 @@ export default {
 ### With Options
 ```js
 /* postcss.config.mjs */
-import { checkChangesPlugin } from '@hacerx/postcss-check-changes';
+import { checkChangesPlugin } from '@hacerx/postcss-watcher-plugin';
 
 /** @type {import('postcss-load-config').Config} */
 export default {

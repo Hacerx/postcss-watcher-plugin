@@ -54,4 +54,4 @@ const watcherPluginFn: PluginCreator<CheckChangesPluginOptions> = (opts) => {
 
 watcherPluginFn.postcss = true;
 
-export const watcherPlugin = watcherPluginFn;
+export const watcher = watcherPluginFn;

@@ -28,23 +28,23 @@ npm i @hacerx/postcss-watcher-plugin
 ### Basic
 ```js
 /* postcss.config.mjs */
-import { checkChangesPlugin } from '@hacerx/postcss-watcher-plugin';
+import { watcher } from '@hacerx/postcss-watcher-plugin';
 
 /** @type {import('postcss-load-config').Config} */
 export default {
-    plugins: [checkChangesPlugin()]
+    plugins: [watcher()]
 }
 ```
 
 ### With Options
 ```js
 /* postcss.config.mjs */
-import { checkChangesPlugin } from '@hacerx/postcss-watcher-plugin';
+import { watcher } from '@hacerx/postcss-watcher-plugin';
 
 /** @type {import('postcss-load-config').Config} */
 export default {
     plugins: [
-        checkChangesPlugin({ 
+        watcher({ 
             file: 'output.css', 
             onChange: (diff) => { 
                 console.log('CSS changed:', diff) 
